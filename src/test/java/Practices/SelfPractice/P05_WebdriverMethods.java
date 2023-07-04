@@ -9,6 +9,7 @@ public class P05_WebdriverMethods {
         System.setProperty("Webdriver.chrome.driver","src/resources/chromedriver_win32/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
+        //(SDN) P.31
         //2. Youtube web sayfasına gidin ve sayfa başlığının “youtube” olup olmadığını
         //doğrulayın (verify), eğer değilse doğru başlığı(Actual Title) konsolda yazdirin.
         driver.get("http://www.youtube.com");

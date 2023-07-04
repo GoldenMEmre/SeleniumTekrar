@@ -9,6 +9,7 @@ public class P04_WebdriverMethods {
         System.setProperty("Webdriver.chrome.driver", "src/resources/chromedriver_win32/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
+        //(SDN) P.30
         // 2.ChromeDriver kullanarak, facebook sayfasina gidin ve sayfa basliginin (title) “facebook” oldugunu
         // dogrulayin (verify), degilse dogru basligi yazdirin.
         driver.get("https://www.facebook.com");
